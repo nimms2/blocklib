@@ -1,0 +1,21 @@
+{
+  "name": "blocklib",
+  "version": "0.0.6i",
+  "description": "This is a Blockchain Library for interactions with Ethereum and Multichain based Blockchains",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node dist/app.js",
+    "build": "npm build ./ --out-dir dist"
+  },
+  "keywords": [
+    "blockchain ethereum multichain"
+  ],
+  "author": "Hannes Christian Slowak",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^4.0.27",
+    "multinodejs": "^2.0.0"
+  },
+  "devDependencies": {}
+}
